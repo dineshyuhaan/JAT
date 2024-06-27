@@ -1,0 +1,41 @@
+
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Task24</groupId>
+  <artifactId>Task24</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Task24</name>
+  <dependencies>
+        <!-- Selenium Java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.21.0</version>
+        </dependency>
+        <!-- TestNG -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.4.0</version>
+            <scope>test</scope>
+        </dependency>
+        
+		<dependency>
+    		<groupId>com.aventstack</groupId>
+    		<artifactId>extentreports</artifactId>
+    		<version>4.0.9</version>
+		</dependency>
+
+
+        <dependency>
+        	<groupId>Selenium</groupId>
+        	<artifactId>Selenium</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+        	<groupId>Demoblaze</groupId>
+        	<artifactId>Demoblaze</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
+  </dependencies>
+</project>
